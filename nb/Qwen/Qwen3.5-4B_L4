@@ -12,14 +12,28 @@
     {
       "cell_type": "code",
       "source": [
-        "pip install -U \"unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git\"\n",
-        "pip install -U --no-deps \"xformers<0.0.29\" \"trl<0.15.0\" peft accelerate bitsandbytes datasets huggingface_hub"
+        "!pip install -U \"unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git\"\n",
+        "!pip install -U --no-deps \"xformers<0.0.29\" \"trl<0.15.0\" peft accelerate bitsandbytes datasets huggingface_hub\n"
       ],
       "metadata": {
-        "id": "J1pnB3Xd4Z9R"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J1pnB3Xd4Z9R",
+        "outputId": "67893bfe-536d-41fa-a50c-88284ec4f7ca"
       },
       "execution_count": null,
-      "outputs": []
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting unsloth @ git+https://github.com/unslothai/unsloth.git (from unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git)\n",
+            "  Cloning https://github.com/unslothai/unsloth.git to /tmp/pip-install-lxvj_spr/unsloth_352a356aa02048ef9cf7a7d1dcaa25d2\n",
+            "  Running command git clone --filter=blob:none --quiet https://github.com/unslothai/unsloth.git /tmp/pip-install-lxvj_spr/unsloth_352a356aa02048ef9cf7a7d1dcaa25d2\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
